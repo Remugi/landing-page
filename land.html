@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IntelliAI — The Future of AI Assistance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">Intelli<span>AI</span></a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+      </ul>
+    </nav>
+    <label for="menuToggle" class="menu-btn">&#9776;</label>
+    <input type="checkbox" id="menuToggle" hidden />
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-inner">
+    <h1>The Future of AI Assistance <span class="grad-text">Starts Here</span></h1>
+    <p>Boost your productivity with IntelliAI — an intelligent assistant that writes, codes, translates, and analyzes data so you can focus on what matters most.</p>
+    <div class="hero-buttons">
+      <a href="#features" class="btn btn-primary">Get Started</a>
+      <a href="#about" class="btn btn-ghost">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Powerful <span class="grad-text">Features</span></h2>
+      <p>Everything you need to supercharge your workflow.</p>
+    </div>
+    <div class="features-grid">
+      <div class="glass card">
+        <div class="icon">💬</div>
+        <h3>Smart Chat</h3>
+        <p>Natural conversations with contextual memory and human-like reasoning.</p>
+      </div>
+      <div class="glass card">
+        <div class="icon">✍️</div>
+        <h3>Content Generation</h3>
+        <p>Generate blogs, emails, and creative content in seconds.</p>
+      </div>
+      <div class="glass card">
+        <div class="icon">💻</div>
+        <h3>Code Assistance</h3>
+        <p>Write, debug, and refactor code across 40+ programming languages.</p>
+      </div>
+      <div class="glass card">
+        <div class="icon">🌍</div>
+        <h3>Language Translation</h3>
+        <p>Translate between 100+ languages with native-level accuracy.</p>
+      </div>
+      <div class="glass card">
+        <div class="icon">📊</div>
+        <h3>Data Analysis</h3>
+        <p>Turn raw data into actionable insights with AI-driven analytics.</p>
+      </div>
+      <div class="glass card">
+        <div class="icon">⚡</div>
+        <h3>24/7 Support</h3>
+        <p>Always-on assistance, ready whenever you need a smart hand.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="container about-grid">
+    <div class="about-text">
+      <h2>About <span class="grad-text">IntelliAI</span></h2>
+      <p>IntelliAI is built to empower <strong>students</strong>, <strong>developers</strong>, and <strong>businesses</strong> with next-generation artificial intelligence. From research and learning, to building products and scaling operations — IntelliAI works alongside you.</p>
+      <ul class="about-list">
+        <li>🎓 Helps students learn faster with personalized explanations.</li>
+        <li>👨‍💻 Assists developers with clean, optimized code.</li>
+        <li>🏢 Empowers businesses with automation and insights.</li>
+      </ul>
+    </div>
+    <div class="about-visual glass">
+      <div class="orb"></div>
+      <div class="orb orb2"></div>
+      <h3>1M+ Users Trust IntelliAI</h3>
+      <p>Across 120 countries and counting.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="signup" class="signup-section">
+    <div class="signup-container">
+
+        <div class="signup-content">
+            <h2>Sign Up</h2>
+            <p>
+                Ready to get started? Create your account and join the
+                IntelliAI community.
+            </p>
+        </div>
+
+        <form class="signup-form"  onsubmit="event.preventDefault(); alert('Thank you for signing up to IntelliAI!'); this.reset();">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Confirm your password">
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <a href="#home" class="logo">Intelli<span>AI</span></a>
+      <p class="footer-tag">The future of AI assistance.</p>
+    </div>
+    <div class="socials">
+      <a href="#" aria-label="Twitter">🐦</a>
+      <a href="#" aria-label="Facebook">📘</a>
+      <a href="#" aria-label="Instagram">📸</a>
+      <a href="#" aria-label="LinkedIn">💼</a>
+      <a href="#" aria-label="GitHub">💻</a>
+    </div>
+  </div>
+  <div class="copyright">© 2026 IntelliAI. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
